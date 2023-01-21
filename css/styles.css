@@ -37,6 +37,20 @@ header > nav > ul {
     margin-left: auto;
 }
 
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .content-header{
     display: flex;
     padding: 120px;
@@ -61,16 +75,49 @@ header > nav > ul {
     color: #F9FAF8;
 }
 
-.secondary {
-    font-size: 18px;
-    color: #E5E7EB;
+.info {
+    padding: 25px;
+    padding-bottom: 50px;
 }
 
-li > a {
-    text-decoration: none;
+.info-heading{ 
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
+.figures img, .figures figcaption {
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.quote-container {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-by {
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    text-align: end;
 }
