@@ -21,7 +21,7 @@ header{
 }
 
 header > nav {
-    width: 80vw;
+    width: 60vw;
     padding: 10px;
 }
 
@@ -74,13 +74,14 @@ li > a:hover {
 
 .content-header{
     display: flex;
-    padding: 120px;
     justify-content: center;
     gap: 50px;
+    width: 60vw;
+    margin: 100px 0px;
 }
 
 .content-header-child {
-    flex: 0 1 500px;
+    flex: 0 1 auto;
 }
 
 .content-header-child img {
