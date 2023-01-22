@@ -75,12 +75,18 @@ li > a:hover {
 .content-header{
     display: flex;
     padding: 120px;
+    justify-content: center;
     gap: 50px;
 }
 
 .content-header-child {
-    flex: 1;
+    flex: 0 1 500px;
 }
+
+.content-header-child img {
+    border-radius: 5px; 
+}
+
 
 .sign-up {
     margin-top: 10px;
@@ -88,6 +94,11 @@ li > a:hover {
     border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .main {
@@ -110,7 +121,7 @@ li > a:hover {
 }
 
 .figures img, .figures figcaption {
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     object-fit: cover;
     margin-bottom: 10px;
